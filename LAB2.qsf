@@ -1,0 +1,112 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+# Date created = 19:11:55  March 04, 2024
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		LAB2_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE6E22C8
+set_global_assignment -name TOP_LEVEL_ENTITY LAB_3
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:11:55  MARCH 04, 2024"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name BDF_FILE SEG_A.bdf
+set_global_assignment -name BDF_FILE SEG_B.bdf
+set_global_assignment -name BDF_FILE SEG_C.bdf
+set_global_assignment -name BDF_FILE SEG_D.bdf
+set_global_assignment -name BDF_FILE SEG_E.bdf
+set_global_assignment -name BDF_FILE SEG_F.bdf
+set_global_assignment -name BDF_FILE SEG_G.bdf
+set_global_assignment -name BDF_FILE HEX2SSD.bdf
+set_location_assignment PIN_121 -to B
+set_location_assignment PIN_125 -to C
+set_location_assignment PIN_129 -to D
+set_location_assignment PIN_132 -to E
+set_location_assignment PIN_126 -to F
+set_location_assignment PIN_124 -to G
+set_location_assignment PIN_128 -to A
+set_global_assignment -name VECTOR_WAVEFORM_FILE LAB2.vwf
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name VECTOR_WAVEFORM_FILE simLab2.vwf
+set_global_assignment -name BDF_FILE Four_To_One_Multiplexer.bdf
+set_global_assignment -name BDF_FILE Quad_Four_To_One_Multiplexer.bdf
+set_global_assignment -name BDF_FILE 2_Bit_Decoder.bdf
+set_global_assignment -name BDF_FILE 12Hz_Clock.bdf
+set_global_assignment -name BDF_FILE Sequence_Slower.bdf
+set_global_assignment -name BDF_FILE LAB_3.bdf
+set_location_assignment PIN_137 -to CA1
+set_location_assignment PIN_136 -to CA2
+set_location_assignment PIN_135 -to CA3
+set_location_assignment PIN_133 -to CA4
+set_global_assignment -name VECTOR_WAVEFORM_FILE LAB_3.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Quad_Four_To_One_Multiplexer_Simulation.vwf
+set_global_assignment -name BDF_FILE 48Hz_Clock.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE 2_Bit_Decoder_Simulation.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Two_Bit_Decoder_Simulation.vwf
+set_global_assignment -name BDF_FILE Two_Bit_Decoder.bdf
+set_global_assignment -name BDF_FILE BCD_Counter.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE BCD_Counter.vwf
+set_location_assignment PIN_25 -to Reset
+set_global_assignment -name BDF_FILE Clock_Cycle_Counter.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE BCD_Counter_With_Reset.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Main_Counter_Sim.vwf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name BDF_FILE Sequence_Recognizer.bdf
+set_global_assignment -name BDF_FILE debouncer.bdf
+set_global_assignment -name BDF_FILE pattern_recognizer.bdf
+set_location_assignment PIN_89 -to PB1
+set_global_assignment -name BDF_FILE Two_To_One_Mux.bdf
+set_global_assignment -name BDF_FILE Sixteen_To_Eight_Mux.bdf
+set_location_assignment PIN_88 -to PB0
+set_location_assignment PIN_23 -to CLK
+set_global_assignment -name BDF_FILE 12Hz_Clock_New.bdf
+set_location_assignment PIN_87 -to LED1
+set_location_assignment PIN_86 -to LED2
+set_location_assignment PIN_85 -to LED3
+set_location_assignment PIN_84 -to LED4
+set_global_assignment -name BDF_FILE sequence_vtwo.bdf
+set_global_assignment -name BDF_FILE 100Hz_clock_vtwo.bdf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

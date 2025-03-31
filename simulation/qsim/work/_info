@@ -1,0 +1,317 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/jackr/OneDrive/Documents/Embedded Mechatronics/FPGA/LAB2/simulation/qsim
+v\2_Bit_Decoder 
+!s110 1710215242
+!i10b 1
+!s100 >6CZN=`kZ`YgWE6T>Ha7]2
+I:VdKhd3T@CJ<PW0IDBA3P1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1710215241
+Z2 8LAB2.vo
+Z3 FLAB2.vo
+Z4 L0 31
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1710215242.000000
+Z6 !s107 LAB2.vo|
+Z7 !s90 -work|work|LAB2.vo|
+!i113 1
+Z8 o-work work
+Z9 tCvgOpt 0
+n@1342_@bit_@decoder@040
+vBCD_Counter
+Z10 !s110 1711435042
+!i10b 1
+!s100 C0Ti7]oPBMG`=QJThzZ8f1
+IB5G`2jLEb=23im=JgME;20
+R1
+Z11 dG:/LAB2/simulation/qsim
+Z12 w1711435042
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z13 !s108 1711435042.000000
+R6
+R7
+!i113 1
+R8
+R9
+n@b@c@d_@counter
+vBCD_Counter_vlg_vec_tst
+R10
+!i10b 1
+!s100 SXj67D9PG54Lh3N[ZE^_h0
+I8_c67DQm:3nQV9F<m:VEP2
+R1
+R11
+R12
+Z14 8BCD_Counter_With_Reset.vwf.vt
+Z15 FBCD_Counter_With_Reset.vwf.vt
+Z16 L0 29
+R5
+r1
+!s85 0
+31
+R13
+Z17 !s107 BCD_Counter_With_Reset.vwf.vt|
+Z18 !s90 -work|work|BCD_Counter_With_Reset.vwf.vt|
+!i113 1
+R8
+R9
+n@b@c@d_@counter_vlg_vec_tst
+vClock_Cycle_Counter
+Z19 !s110 1712565015
+!i10b 1
+!s100 0l1dii0[h`<H7iX0kYE<c1
+I]`a`Y=aNonWCkJkFSIJR93
+R1
+R11
+Z20 w1712565014
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z21 !s108 1712565015.000000
+R6
+R7
+!i113 1
+R8
+R9
+n@clock_@cycle_@counter
+vClock_Cycle_Counter_vlg_vec_tst
+R19
+!i10b 1
+!s100 FDBkGzW3ao`WUZ?G7dD=31
+I?EY:3UoccM@ic[zQ8z=@M2
+R1
+R11
+w1712565012
+8Main_Counter_Sim.vwf.vt
+FMain_Counter_Sim.vwf.vt
+R16
+R5
+r1
+!s85 0
+31
+R21
+!s107 Main_Counter_Sim.vwf.vt|
+!s90 -work|work|Main_Counter_Sim.vwf.vt|
+!i113 1
+R8
+R9
+n@clock_@cycle_@counter_vlg_vec_tst
+vhard_block
+R19
+!i10b 1
+!s100 8:^n3<1Ld0WzFoENHJ1OH1
+IHDcB2KnU3[I@CLH>FGeb>1
+R1
+R11
+R20
+R2
+R3
+L0 1168
+R5
+r1
+!s85 0
+31
+R21
+R6
+R7
+!i113 1
+R8
+R9
+vHEX2SSD
+Z22 !s110 1709619751
+!i10b 1
+!s100 6hOK6SEA_N9YgLDUQk5N?1
+IFE0Ha9U=WzWENi>E>YViV2
+R1
+R0
+w1709619750
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+!s108 1709619750.000000
+R6
+R7
+!i113 1
+R8
+R9
+n@h@e@x2@s@s@d
+vHEX2SSD_vlg_vec_tst
+R22
+!i10b 1
+!s100 Jc^[3DcN?f]Tf[ZW]NAPV3
+I^D4GNY@z08PQ7TVHb6Q6d3
+R1
+R0
+w1709619749
+8simLab2.vwf.vt
+FsimLab2.vwf.vt
+R16
+R5
+r1
+!s85 0
+31
+!s108 1709619751.000000
+!s107 simLab2.vwf.vt|
+!s90 -work|work|simLab2.vwf.vt|
+!i113 1
+R8
+R9
+n@h@e@x2@s@s@d_vlg_vec_tst
+vLAB_3
+Z23 !s110 1711434505
+!i10b 1
+!s100 bmRJ8Q3KWSP2TMUHlczKk3
+Ig0KDbdkY2d9TcGIlXo@iA3
+R1
+R11
+w1711434506
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z24 !s108 1711434505.000000
+R6
+R7
+!i113 1
+R8
+R9
+n@l@a@b_3
+vLAB_3_vlg_vec_tst
+R23
+!i10b 1
+!s100 z_1A3g2E41eKA1<X00mH60
+IDZ0gZe[PCm]c@VF0z9K8o2
+R1
+R11
+w1711434504
+R14
+R15
+R16
+R5
+r1
+!s85 0
+31
+R24
+R17
+R18
+!i113 1
+R8
+R9
+n@l@a@b_3_vlg_vec_tst
+vQuad_Four_To_One_Multiplexer
+Z25 !s110 1710213252
+!i10b 1
+!s100 E3I?hRf;@<77QO:Gg20d@0
+IfT9k3k1<6CoT?bM>dBM7_3
+R1
+R0
+w1710213252
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z26 !s108 1710213252.000000
+R6
+R7
+!i113 1
+R8
+R9
+n@quad_@four_@to_@one_@multiplexer
+vQuad_Four_To_One_Multiplexer_vlg_vec_tst
+R25
+!i10b 1
+!s100 cjh@YdgY7mohMik?]eVl93
+I@FSfMBIjhmZ=KYPG6X@Nh0
+R1
+R0
+w1710213251
+8Quad_Four_To_One_Multiplexer_Simulation.vwf.vt
+FQuad_Four_To_One_Multiplexer_Simulation.vwf.vt
+R16
+R5
+r1
+!s85 0
+31
+R26
+!s107 Quad_Four_To_One_Multiplexer_Simulation.vwf.vt|
+!s90 -work|work|Quad_Four_To_One_Multiplexer_Simulation.vwf.vt|
+!i113 1
+R8
+R9
+n@quad_@four_@to_@one_@multiplexer_vlg_vec_tst
+vTwo_Bit_Decoder
+Z27 !s110 1710216206
+!i10b 1
+!s100 >fW?i<?0n4SfUUJ?@n`iR1
+IGF<ZVk[eNJ>zRO>o:bT1b3
+R1
+R0
+w1710216206
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z28 !s108 1710216206.000000
+R6
+R7
+!i113 1
+R8
+R9
+n@two_@bit_@decoder
+vTwo_Bit_Decoder_vlg_vec_tst
+R27
+!i10b 1
+!s100 <049T<h39c^ozPWGOm>?a3
+IMF2HR2zBSdDW2hHi5[:Y30
+R1
+R0
+w1710216205
+8Two_Bit_Decoder_Simulation.vwf.vt
+FTwo_Bit_Decoder_Simulation.vwf.vt
+R16
+R5
+r1
+!s85 0
+31
+R28
+!s107 Two_Bit_Decoder_Simulation.vwf.vt|
+!s90 -work|work|Two_Bit_Decoder_Simulation.vwf.vt|
+!i113 1
+R8
+R9
+n@two_@bit_@decoder_vlg_vec_tst
